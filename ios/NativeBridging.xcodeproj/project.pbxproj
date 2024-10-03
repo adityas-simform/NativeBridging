@@ -12,6 +12,9 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		466B98422CAE76E80036BDDF /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466B98412CAE76E80036BDDF /* Toast.swift */; };
+		466B98452CAE9D220036BDDF /* RCTData.m in Sources */ = {isa = PBXBuildFile; fileRef = 466B98442CAE9D220036BDDF /* RCTData.m */; };
+		46DD84672CAC07C000725E4F /* RCTNativeToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DD84662CAC07C000725E4F /* RCTNativeToast.m */; };
 		7699B88040F8A987B510C191 /* libPods-NativeBridging-NativeBridgingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-NativeBridging-NativeBridgingTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		B32254CA6DED9C884118C0C2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 3914CCA366D3C2B8F5DD9A86 /* PrivacyInfo.xcprivacy */; };
@@ -39,8 +42,14 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = NativeBridging/main.m; sourceTree = "<group>"; };
 		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = NativeBridging/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-NativeBridging-NativeBridgingTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NativeBridging-NativeBridgingTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3914CCA366D3C2B8F5DD9A86 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = NativeBridging/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		3914CCA366D3C2B8F5DD9A86 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = NativeBridging/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-NativeBridging.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeBridging.debug.xcconfig"; path = "Target Support Files/Pods-NativeBridging/Pods-NativeBridging.debug.xcconfig"; sourceTree = "<group>"; };
+		466B98412CAE76E80036BDDF /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		466B98432CAE77020036BDDF /* NativeBridging-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NativeBridging-Bridging-Header.h"; sourceTree = "<group>"; };
+		466B98442CAE9D220036BDDF /* RCTData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTData.m; sourceTree = "<group>"; };
+		466B98462CAE9D3F0036BDDF /* RCTData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTData.h; sourceTree = "<group>"; };
+		46DD84652CAC076D00725E4F /* RCTNativeToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTNativeToast.h; sourceTree = "<group>"; };
+		46DD84662CAC07C000725E4F /* RCTNativeToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTNativeToast.m; path = NativeBridging/RCTNativeToast.m; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-NativeBridging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeBridging.release.xcconfig"; path = "Target Support Files/Pods-NativeBridging/Pods-NativeBridging.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-NativeBridging-NativeBridgingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeBridging-NativeBridgingTests.debug.xcconfig"; path = "Target Support Files/Pods-NativeBridging-NativeBridgingTests/Pods-NativeBridging-NativeBridgingTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-NativeBridging.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NativeBridging.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +106,12 @@
 				13B07FB71A68108700A75B9A /* main.m */,
 				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
 				3914CCA366D3C2B8F5DD9A86 /* PrivacyInfo.xcprivacy */,
+				46DD84652CAC076D00725E4F /* RCTNativeToast.h */,
+				46DD84662CAC07C000725E4F /* RCTNativeToast.m */,
+				466B98412CAE76E80036BDDF /* Toast.swift */,
+				466B98432CAE77020036BDDF /* NativeBridging-Bridging-Header.h */,
+				466B98442CAE9D220036BDDF /* RCTData.m */,
+				466B98462CAE9D3F0036BDDF /* RCTData.h */,
 			);
 			name = NativeBridging;
 			sourceTree = "<group>";
@@ -211,7 +226,7 @@
 						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 					13B07F861A680F5B00A75B9A = {
-						LastSwiftMigration = 1120;
+						LastSwiftMigration = 1530;
 					};
 				};
 			};
@@ -399,7 +414,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				466B98452CAE9D220036BDDF /* RCTData.m in Sources */,
+				466B98422CAE76E80036BDDF /* Toast.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				46DD84672CAC07C000725E4F /* RCTNativeToast.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +436,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-NativeBridging-NativeBridgingTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -445,6 +464,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-NativeBridging-NativeBridgingTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = NativeBridgingTests/Info.plist;
@@ -486,6 +506,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = NativeBridging;
+				SWIFT_OBJC_BRIDGING_HEADER = "NativeBridging-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -512,6 +533,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = NativeBridging;
+				SWIFT_OBJC_BRIDGING_HEADER = "NativeBridging-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -590,10 +612,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -666,10 +685,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
