@@ -11,4 +11,6 @@
 #endif /* NativeBridging_Bridging_Header_h */
 
 #import "RCTNativeToast.h"
+#import "RCTStreaming.h"
+#import <React/RCTEventEmitter.h>
 

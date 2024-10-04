@@ -14,6 +14,8 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		466B98422CAE76E80036BDDF /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466B98412CAE76E80036BDDF /* Toast.swift */; };
 		466B98452CAE9D220036BDDF /* RCTData.m in Sources */ = {isa = PBXBuildFile; fileRef = 466B98442CAE9D220036BDDF /* RCTData.m */; };
+		466B98492CAED5C30036BDDF /* RCTStreaming.m in Sources */ = {isa = PBXBuildFile; fileRef = 466B98482CAED5C30036BDDF /* RCTStreaming.m */; };
+		466B984B2CAFB1180036BDDF /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 466B984A2CAFB1180036BDDF /* Stream.swift */; };
 		46DD84672CAC07C000725E4F /* RCTNativeToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 46DD84662CAC07C000725E4F /* RCTNativeToast.m */; };
 		7699B88040F8A987B510C191 /* libPods-NativeBridging-NativeBridgingTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-NativeBridging-NativeBridgingTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
@@ -48,6 +50,9 @@
 		466B98432CAE77020036BDDF /* NativeBridging-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NativeBridging-Bridging-Header.h"; sourceTree = "<group>"; };
 		466B98442CAE9D220036BDDF /* RCTData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTData.m; sourceTree = "<group>"; };
 		466B98462CAE9D3F0036BDDF /* RCTData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTData.h; sourceTree = "<group>"; };
+		466B98472CAED5B70036BDDF /* RCTStreaming.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTStreaming.h; sourceTree = "<group>"; };
+		466B98482CAED5C30036BDDF /* RCTStreaming.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCTStreaming.m; sourceTree = "<group>"; };
+		466B984A2CAFB1180036BDDF /* Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stream.swift; sourceTree = "<group>"; };
 		46DD84652CAC076D00725E4F /* RCTNativeToast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTNativeToast.h; sourceTree = "<group>"; };
 		46DD84662CAC07C000725E4F /* RCTNativeToast.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RCTNativeToast.m; path = NativeBridging/RCTNativeToast.m; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-NativeBridging.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NativeBridging.release.xcconfig"; path = "Target Support Files/Pods-NativeBridging/Pods-NativeBridging.release.xcconfig"; sourceTree = "<group>"; };
@@ -112,6 +117,9 @@
 				466B98432CAE77020036BDDF /* NativeBridging-Bridging-Header.h */,
 				466B98442CAE9D220036BDDF /* RCTData.m */,
 				466B98462CAE9D3F0036BDDF /* RCTData.h */,
+				466B98472CAED5B70036BDDF /* RCTStreaming.h */,
+				466B98482CAED5C30036BDDF /* RCTStreaming.m */,
+				466B984A2CAFB1180036BDDF /* Stream.swift */,
 			);
 			name = NativeBridging;
 			sourceTree = "<group>";
@@ -413,11 +421,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				466B98492CAED5C30036BDDF /* RCTStreaming.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				466B98452CAE9D220036BDDF /* RCTData.m in Sources */,
 				466B98422CAE76E80036BDDF /* Toast.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 				46DD84672CAC07C000725E4F /* RCTNativeToast.m in Sources */,
+				466B984B2CAFB1180036BDDF /* Stream.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

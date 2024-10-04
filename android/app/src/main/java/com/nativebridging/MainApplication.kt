@@ -21,6 +21,7 @@ class MainApplication : Application(), ReactApplication {
               // add(MyReactNativePackage())
                 add(NativeToastPackage())
                 add(NativeDataPackage())
+                add(StreamPacakge())
             }
 
         override fun getJSMainModuleName(): String = "index"
